@@ -10,10 +10,16 @@ header{
     top: 0;
     height: 10vh;
     background-color: #110e2d;
+    overflow: hidden;
+}
+body{
+    background-color: #442072;
 }
 .home-title{
     color: #e6e6e7;
     font-size: 5vh;
+    float: left;
+    margin-left: auto;
 }
 a{
     text-decoration: none;
@@ -28,7 +34,30 @@ a{
 }
 .content-two{
     height: 95vh;
+    background-color: #442072;
 }
 li{
     list-style: none;
+}
+ul{
+    overflow: hidden;
+}
+.nav-left{
+    float: right;
+}
+.nav-left a{
+    padding: 1vh;
+    color: #e6e6e7;
+    border-radius: 5px;
+}
+.nav-left a:hover{
+    background-color: #18133d;
+}
+.content-three{
+    height: 70vh;
+    background-color: #281c39;
+}
+footer{
+    height: 50vh;
+    background-color: #201b27;
 }
