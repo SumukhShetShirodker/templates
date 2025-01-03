@@ -20,6 +20,11 @@ body{
     font-size: 5vh;
     float: left;
     margin-left: auto;
+    padding-left: 5vw;
+    font-weight: 700;
+}
+.home-title:hover{
+    text-shadow: 0 0 3px #eeeef3;
 }
 a{
     text-decoration: none;
@@ -35,6 +40,7 @@ a{
 .content-two{
     height: 95vh;
     background-color: #442072;
+    color: #eeeef3;
 }
 li{
     list-style: none;
@@ -44,6 +50,7 @@ ul{
 }
 .nav-left{
     float: right;
+    padding-right: 5vw;
 }
 .nav-left a{
     padding: 1vh;
@@ -60,4 +67,58 @@ ul{
 footer{
     height: 50vh;
     background-color: #201b27;
+}
+
+@media (max-width:450px ) {
+    header{
+        justify-content: center;
+    }
+    .home-title{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        float: none;
+        padding-left: 0;
+    }
+    .nav-left{
+        float: none;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.btn-lala{
+    align-items:center;
+    justify-content:space-around;
+    display: flex;
+    padding: 5vh;
+}
+.btn-submit{
+    background-color: #e2ff0a;
+    box-shadow: 0 0 5px #bfcb67;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 4px 4px 4px 4px ;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+.btn-submit:hover{
+    box-shadow: 0 0 15px #bfcb67;
+}
+.linked-class{
+    height: 8vh;
+    width: 5vw;
+}
+.linked-in{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+.git-class{
+    height: 7.5vh;
+    width: 5vw;
 }
