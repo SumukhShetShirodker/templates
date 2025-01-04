@@ -160,6 +160,7 @@ input{
     font-size: 3vh;
     margin-left: 5vh;
     padding-top: 2vh;
+    font-weight: 700;
 }
 .btn-inp{
     margin-left: 5vh;
@@ -170,4 +171,18 @@ input{
     border: none;
     box-shadow: #bfcb67 0 0 5px;
     border-radius: 6px 6px 6px 6px;
+    color: #000;
+    font-weight: 700;
+}
+.btn-inp:hover{
+    box-shadow: #bfcb67 0 0 10px;
+}
+.nit-goa{
+    color: #e6e6e7;
+    font-size: 18px;
+}
+.auth{
+    color: #e6e6e7;
+    font-size: 23px;
+    padding-bottom: 3vh;
 }
